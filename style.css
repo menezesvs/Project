@@ -11,7 +11,7 @@ header {
   background-color: white;
   display: flex;
   height: 10vh;
-  width: 100vw;
+  width: 98.7vw;
   align-items: center;
   justify-content: space-evenly;
   position: fixed;
@@ -31,7 +31,7 @@ header {
 
 .main h1 {
   font-size: 4.0rem;
-  width: 500vw;
+  width: 65vw;
   height: 12vh;
   }
 
@@ -103,7 +103,7 @@ img:hover {
   width: 41rem;
 }
 
-socialNetworks img:hover {
+.socialNetworks img:hover {
   cursor: pointer;
   transform: scale(1.5);
 }
@@ -123,12 +123,9 @@ socialNetworks img:hover {
 }
 
 .copyright p {
-  width: 70vw;
+  width: 30vw;
   font-size: 0.8rem;
-}
-
-&hearts {
-  width: 5vw;
+  border: solid black;
 }
 
 .buttonTop {
@@ -145,38 +142,31 @@ socialNetworks img:hover {
   transition: all 0.5s;
 }
 
-/*.boxText {
-  display: flex;
-}
-
-.boxText p {
-  padding-left: 1rem;
-}*/
-
 @media (max-width: 600px) {
 
   .title {
     width: 150vw;
     justify-content: center;
-    border: solid black;
   }
 
   .main {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    background-image: url("./img/laranjaazulrecorte.png");
+    background-image: url("./img/laranja\ azul\ recorte.png");
+    background-position: center;
     background-repeat: no-repeat;
     height: 50vh;
   }
   
   .main h1 {
-    margin: 15% 0% 0% 0%;
+    height: 20vh;
     font-size: 3.5rem;
-    width: 50vw;
+    width: 30vw;
   }
   
   .main a {
+    height: 10vh;
     width: 10vw;
     font-size: 1.5rem;
   }
@@ -185,11 +175,11 @@ socialNetworks img:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100vw;
+    width: 77vw;
   }
 
   .image img {
-    width: 95vw;
+    width: 65vw;
   }
 
   .footer {
@@ -199,25 +189,31 @@ socialNetworks img:hover {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    margin-top: 5rem;
+    width: 76vw;
   }
 
   .socialNetworks {
-    width: 92vw;
+    width: 55vw;
   }
 
   .copyright {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: solid black;
+    height: 2vh;
   }  
 
   .copyright h2 {
+    height: 5vh;
+    width: 5vw;
     font-size: 0.95rem;
   }
 
   .copyright p {
-    font-size: 0.75rem;
-    width: 37vw;
+    font-size: 0.70rem;
+    width: 40vw;
+    height: 5vh;
   }
 
   .buttonTop {
